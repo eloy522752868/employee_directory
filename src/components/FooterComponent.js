@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-
+//Modified By: Eloy Gonzalez
+//Modified Date: Eloy Gonzalez
+// footer
 class FooterComponent extends Component {
     constructor(props) {
         super(props)
@@ -12,8 +14,8 @@ class FooterComponent extends Component {
     render() {
         return (
             <div>
-                <footer className = "footer">
-                    <span className="text-muted">All Rights Reserved 2020 @JavaGuides</span>
+                <footer  className = "footer-copyright text-center py-3">
+                    <span className="text-muted">All Rights Reserved 2021</span>
                 </footer>
             </div>
         )
