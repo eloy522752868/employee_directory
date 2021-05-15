@@ -12,7 +12,6 @@ class EmployeeService {
         console.log("return",query);
         return axios.get(EMPLOYEE_API_BASE_URL);
       }
-     // + query 
  }
 
 export default new EmployeeService()
