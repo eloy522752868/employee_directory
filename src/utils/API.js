@@ -9,8 +9,8 @@ class EmployeeService {
     }
 
     searchEmployees(query){
-
-        return axios.get(EMPLOYEE_API_BASE_URL + "&first=Kayla");
+        console.log("return",query);
+        return axios.get(EMPLOYEE_API_BASE_URL);
       }
      // + query 
  }
